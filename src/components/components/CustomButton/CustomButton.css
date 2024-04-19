@@ -1,0 +1,29 @@
+.mi-button{
+    padding: 40px 50px;
+    background: #be12c4;
+    color:aliceblue;
+    border-radius: 7px;
+    user-select: none;
+    margin:3px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0);
+}
+.mi-button:hover{
+    background: #4a5e4a;
+    transition: background 0.3s, transform 0.2s;
+}
+.mi-button:active{
+    background: #168fb4;
+    transform: scale(0.95);
+}
+.mi-button.success{
+    background: #80FF80;
+
+}
+.mi-button.success:hover{
+    background: #26b148;
+}
+.mi-button.success:active{
+    background: #2ce7b8;
+}
